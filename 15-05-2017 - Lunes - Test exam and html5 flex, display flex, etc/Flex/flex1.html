@@ -1,0 +1,101 @@
+<!doctype html>
+<html class="no-js" lang="es"> 
+<!-- 
+		AQUEST FLEX_1 NOMÉS EMPRARÁ EL WEBKIT
+		
+		Apunts a tenir en compte:
+		row 			-> Default, en horitzontal
+		row-reverse 	-> Igual que l'anterior pero a la inversa
+		column			-> Vertical
+		column-reverse	-> Com l'anterior pero a la inversa
+		
+		
+		justify-content: flex-start;	-> Tot justificat, capa la esquerra
+		justify-content: flex-end;		-> La inversa de l'anterior
+		justify-content: center;		-> Centrat
+		justify-content: space-between;	-> Deixar un espai entre elements	
+		justify-content: space-arounnd;	-> NPI
+		
+		flex-wrap: wrap;				-> Al finalitzar la amplada, baixa
+		flex-wrap: nowrap;				-> Agrupa tot en una línia
+		
+		
+		
+		
+		
+		
+-->
+
+<!-- HEADER -->
+<head>
+	<style>
+		#linea1{
+			display:-webkit-flex;
+			}
+		#linea2{
+			display:-webkit-flex;
+		}
+			
+		@media (max-width: 500px){
+			#linea1, #linea2 { 
+				-webkit-flex-direction: column;
+								
+				} 
+		}
+		
+		.flex1{
+			-webkit-flex:1;
+			background-color:red;
+		}
+		
+		.flex3{
+			-webkit-flex:3;
+			background-color:green;
+		}
+		
+		.flex2{
+			-webkit-flex:2;
+			background-color:red;
+		}
+	</style>
+</head>
+<!-- FI HEADER -->
+
+<!-- BODY -->
+<body>
+<!-- ---------------------------------- -->
+	<div id="linea1" class="testing">
+	   <div class="flex1">
+		  <p>Derecha</p>
+		  
+	   </div>
+	   
+	   <div class="flex3">
+		   <p>Contenido central</p>
+	   </div>
+	   
+	   <div class="flex1">
+		  <p>Izquierda</p>
+	   </div>
+	</div>  
+<!-- ---------------------------------- -->
+   <div id="linea2">
+	   <div class="flex2">
+		  <p>Derecha</p>
+		  
+	   </div>
+	   
+	   <div class="flex2">
+		   <p>Contenido central</p>
+	   </div>
+	   
+	   <div class="flex1">
+		  <p>Izquierda</p> 
+	   </div>
+   
+   </div>
+<!-- ---------------------------------- -->
+</body>
+<!-- FI BODY -->
+
+</html>

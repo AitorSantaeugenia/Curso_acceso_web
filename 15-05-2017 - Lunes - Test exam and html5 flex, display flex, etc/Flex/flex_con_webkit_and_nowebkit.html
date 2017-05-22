@@ -1,0 +1,85 @@
+<!doctype html>
+<html class="no-js" lang="es"> 
+<!-- 
+		AQUEST FLEX_1 NOMES EMPRARA EL MOTOR DEL NAVEGADOR
+-->
+
+<!-- HEADER -->
+<head>
+	<style>
+		#linea1{
+			display:flex;
+			display:-webkit-flex;
+			}
+		#linea2{
+			display:flex;
+			display:-webkit-flex;
+		}
+			
+		@media (max-width: 500px){
+			#linea1, #linea2 { 
+				flex-direction: column;
+				-webkit-flex-direction: column;
+								
+				} 
+		}
+		
+		.flex1{
+			flex:1;
+			-webkit-flex:1;
+			background-color:red;
+		}
+		
+		.flex3{
+			flex:3;
+			-webkit-flex:3;
+			background-color:green;
+		}
+		
+		.flex2{
+			flex:2;
+			-webkit-flex:2;
+			background-color:red;
+		}
+	</style>
+</head>
+<!-- FI HEADER -->
+
+<!-- BODY -->
+<body>
+<!-- ---------------------------------- -->
+	<div id="linea1" class="testing">
+	   <div class="flex1">
+		  <p>Derecha</p>
+		  
+	   </div>
+	   
+	   <div class="flex3">
+		   <p>Contenido central</p>
+	   </div>
+	   
+	   <div class="flex1">
+		  <p>Izquierda</p>
+	   </div>
+	</div>  
+<!-- ---------------------------------- -->
+   <div id="linea2">
+	   <div class="flex2">
+		  <p>Derecha</p>
+		  
+	   </div>
+	   
+	   <div class="flex2">
+		   <p>Contenido central</p>
+	   </div>
+	   
+	   <div class="flex1">
+		  <p>Izquierda</p> 
+	   </div>
+   
+   </div>
+<!-- ---------------------------------- -->
+</body>
+<!-- FI BODY -->
+
+</html>
