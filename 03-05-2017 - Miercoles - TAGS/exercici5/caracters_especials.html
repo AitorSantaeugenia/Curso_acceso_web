@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<!-- INICI HEADER -->
+	<head>
+		<title> Exercici 5 - Caracters especials, ASCII i taules </title>
+		<meta charset="UTF-8">
+		
+		<!-- ESTILS -->
+		<link rel="stylesheet" type="text/css" href="estils.css">
+	</head>
+	
+<!-- INICI BODY -->
+<body>
+	<hr/>
+	<!-- ------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- CARACTERS ESPECIALS -->
+	<h1> Exercici 5 - Caracters especials, ASCII i taules</h1>
+	<p><strong><u>Accents, lletra Ñ i altres caracters</strong></u></p>
+	Per possar accents feim:
+		<ol> Accents amb &amp;Xacute; o altres caracters sense emprar UTF8
+			<li> &aacute; 		&nbsp;&nbsp;&nbsp; -> &nbsp;&nbsp;&nbsp; <strong>&ampaacute;</strong></li> 
+			<li> &agrave; 		&nbsp;&nbsp;&nbsp; -> &nbsp;&nbsp;&nbsp; <strong>&ampgrave;</strong></li> 
+			<li> &ntilde;		&nbsp;&nbsp;&nbsp; -> &nbsp;&nbsp;&nbsp; <strong>&ampntilde;</strong></li>
+			<li> &Ntilde;		&nbsp;&nbsp;&nbsp; -> &nbsp;&nbsp; <strong>&ampNtilde;</strong></li>
+			<li> &ccedil; 		&nbsp;&nbsp;&nbsp; -> &nbsp;&nbsp;&nbsp; <strong>&ampcedil;</strong></li>
+			<li> &szlig; 		&nbsp;&nbsp;&nbsp; -> &nbsp;&nbsp;&nbsp; <strong>&ampszlig;</strong></li>
+			<li> &delta;		&nbsp;&nbsp;&nbsp; -> &nbsp;&nbsp;&nbsp; <strong>&ampdelta;</strong></li>
+			<li> &lambda;		&nbsp;&nbsp;&nbsp; -> &nbsp;&nbsp;&nbsp; <strong>&amplambda;</strong></li>
+			<li> &omega;		&nbsp;&nbsp;&nbsp; -> &nbsp;&nbsp;&nbsp; <strong>&ampomegaa;</strong></li>
+			<li> &pi;			&nbsp;&nbsp;&nbsp; -> &nbsp;&nbsp;&nbsp; <strong>&amppi;</strong></li>
+		</ol>
+	<hr/>
+	<!-- ------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- CARACTERS ASCII -->
+	<p> Caracters codi ASCII</p>
+	<ol> Corchetes (no cornetos, eso es un helado), arroba i altres caracters ASCII
+			<li> &lt; 			&gt; &nbsp;&nbsp;&nbsp; <strong>&amplt  &ampgt;</strong></li> 
+			<li> &amp; 			&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <strong>&ampamp;</strong></li> 
+			<li> &#64;		    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <strong>&amp#64;</strong></li>
+			<li> &#172;			&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <strong> &amp#172;</strong></li>
+		</ol>
+	<hr/>
+	<!-- ------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- UN SCRIPT -->
+		Aquí hay un script que tú no puedes ver, muahahah. ¡Refresca! (está comentado, olvidalo)
+		<script>
+			/* alert("Hello world"); */
+		</script>
+	<hr/>
+	<!-- ------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- UNA TAULA -->
+	<p> Una taula</p>
+		<table style="width:50%" border="1">
+		  <tr>
+			<td>Celda 1</td>
+			<td>Celda 2</td> 
+		  </tr>
+		  <tr>
+			<td>Celda 3</td>
+			<td>Celda 4</td> 
+		  </tr>
+		</table>
+	<hr/>
+	<!-- ------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- UNA TAULA amb CELL PADDING i CELL SPACING-->
+	<p> Una taula amb cellpadding i cellspacing</p>
+		<table style="width:50%" border="1" cellpadding="10" cellspacing="50">
+		  <tr>
+			<td>Celda 1</td>
+			<td>Celda 2</td> 
+		  </tr>
+		  <tr>
+			<td>Celda 3</td>
+			<td>Celda 4</td> 
+		  </tr>
+		</table>
+		<br/>Podem veure la diferencia, on cellpadding es la amplada de les cel·les <br/>
+		i el cellspacing és l'amplitud del borde de la cel·la
+	<hr/><br/>
+	<!-- ------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- UNA TAULA amb els SPAN rowspan d'una FILA -->
+	ROWSPAN = FILA
+	<table style="width:50%" border="1">
+		<tr>
+			<td rowspan="2" align="center"> 1 </td>
+			<td align="center">2</td>
+		</tr>
+		<tr>
+			<td align="center">3</td>
+		</tr>
+	</table>
+	<hr/><br/>
+	<!-- ------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- UNA TAULA amb els SPAN colspan d'una COLUMNA -->
+	COLSPAN = COLUMNA
+	<table style="width:50%" border="1">
+		<tr>
+			<td colspan="2" align="center"> 1 </td>
+		</tr>
+		<tr>
+			<td align="center">2</td>
+			<td align="center">3</td>
+		</tr>
+	</table>
+	<br/>
+	<hr/>
+	<strong><p>Exercicis pissarra</p></strong>
+	<!-- ------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- EXERCICI 1 -->
+	<strong>Exercici 1</strong>
+		<table style="width:50%" border="1">
+			<tr>
+				<td rowspan="3" align="center">1</td>
+				<td align="center">2</td>
+				<td align="center"> 3</td>
+			</tr>
+			
+			<tr>
+				<td align="center">5</td>
+				<td align="center">6</td>
+			</tr>
+			
+			<tr>
+				<td align="center">8</td>
+				<td align="center">9</td>
+			</td>
+		</table>
+	<hr/>
+	<!-- ------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- EXERCICI 2 -->
+	<strong>Exercici 2 </strong>
+		<table style="width:50%" border="1">
+			<tr>
+				<td colspan="2" align="center">1</td>
+				<td align="center">3</td>
+			</tr>
+			
+			<tr>
+				<td align="center">4</td>
+				<td align="center">5</td>
+				<td align="center">6</td>
+			</tr>
+			
+			<tr>
+				<td align="center">7</td>
+				<td align="center">8</td>
+				<td align="center">9</td>
+			</td>
+		</table>
+	<hr/>
+	<!-- ------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- EXERCICI 3 -->
+	<strong>Exercici 3 </strong>	
+		<table style="width:50%" border="1" cellpadding="50">
+			<tr>
+				<td>1</td>
+				<td>2</td>
+			</tr>
+			
+			<tr>
+				<td>3</td>
+				<td>4</td>
+
+			</tr>
+			
+			<tr>
+				<td colspan="2">7</td>
+			</tr>
+		</table>
+	
+	<br/>
+	<hr/>
+	<!-- ------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- EXERCICI 4 SUPERULTRAMEGA_Taula -->
+	<!-- COLSPAN = HORITZONTAL -->
+	<!-- ROWSPAN = VERTICAL -->
+		<table style="width:30%" border="1" cellpadding="20">
+			<tr>
+				<td <td colspan="7">1</td>
+			</tr>
+			
+			<tr>
+				<td colspan="6">2</td>
+				<td rowspan="5">2</td>
+			</tr>
+			
+			<tr>
+				<td rowspan="4">1</td>
+				<td rowspan="4"> 2</td>
+				<td colspan="2">3</td>
+				<td rowspan="2">5</td>
+				<td rowspan="2">6</td>
+
+			</tr>
+			
+			<tr>
+				<td colspan="2">z</td>
+
+			</tr>
+			
+			<tr>
+				<td rowspan="2">y</td>
+				<td rowspan="2">u</td>
+				<td colspan="2">z</td>
+
+			</tr>
+			
+			<tr>
+				<td colspan="2">i</td>
+
+			</tr>
+			
+			<tr>
+				<td colspan="7">2</td>
+
+			</tr>
+			
+			<tr>
+				<td colspan="2">1</td>
+				<td colspan="5">2</td>
+			</tr>
+			
+			<tr>
+				<td colspan="6">1</td>
+				<td>7</td>
+			</tr>
+		</table>
+	<!-- ------------------------------------------------------------------------------------------------------------------------- -->
+	
+</body>
+</html>
