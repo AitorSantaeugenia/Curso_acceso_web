@@ -1,0 +1,545 @@
+/* ------------------------------------------------------ */
+/* BODY PA TODOS*/
+		@media all{
+			body {
+				border-top: solid 7px #9e42f4;
+				
+			}
+			
+			.contenidor_superior{
+				 display: flex;
+				  -webkit-flex-direction: row;
+				 flex-wrap: wrap;
+				 flex:4;
+			}
+			
+			.nav ul{
+				font-family:"Courier New", Courier, monospace;
+				
+			}
+			
+			.nav {
+			  -webkit-flex-direction: row;
+			  font-size:26px;
+			  margin:auto;
+			  overflow:hidden;
+			  text-align:justify;
+			  margin-top:-1.5%;
+			  /*border:1px solid red;*/
+			  float:right;
+			  height:20.2%;
+			}
+			.nav-list {
+			  
+			}
+			.nav-item {
+			  float:left;
+			  /*display:inline-block;*/
+			  display: flex;
+			}
+			.nav-item a {
+			  padding:41px;
+			  color:#000;
+			  background:none;
+			  text-decoration:none;
+			  padding-top:30%;
+			  text-align:center;
+			}
+			
+			.nav-item a:hover {
+			  background:#9e42f4;
+			}
+			
+			/* ------------------------------------------------------------------- */
+			/* LOGO */
+			.logo_web{
+				/*border:1px solid green;*/
+				padding-left:1.3%;
+				flex:1;
+				-webkit-flex-direction: row;
+				float:left;
+			}
+			
+			.logo_text_baix{
+				flex:1;
+				-webkit-flex-direction: row;
+				/*border:1px solid green;*/
+			}
+			
+			p.logo_text{
+				 font-size:60px;
+				 margin-top:3%;
+				 color:#9e42f4;
+			}
+			
+			p.logo_text_baix{
+				font-family:"Courier New", Courier, monospace;
+				font-size:20px;
+				margin-top:-10%;
+
+			}
+			/* ------------------------------------------------------------------- */
+			
+			/* ------------------------------------------------------------------- */
+			/* CONTENIDOR #1 - IMATGE RODONA */
+			.contenidor_primer{
+				/*border:1px solid black;*/
+				display: flex;
+				flex-wrap: wrap;
+				-webkit-flex-direction: row;
+				flex:2;
+			}
+			
+			.contenidor_primer_text{
+				-webkit-flex-direction: column;
+				display: flex;
+				/*border:1px solid yellow;*/
+				flex:2;
+				height:100%;
+				float:left;
+			}
+			
+			.primer_text_{
+				text-align:center;
+				flex:2;
+				/*border:1px solid green;*/
+				margin-left:10%;
+				margin-right:10%;
+			}
+			
+			.segon_text_{
+				text-align:center;
+				/*border:1px solid blue;*/
+				margin-left:10%;
+				margin-right:10%;
+				flex:2;
+				text-align:justify;
+			}
+			
+			.primer_text_ p{
+				text-align:center;
+				font-family:Georgia, serif;
+				font-size:50px;
+			
+			}
+			
+			.contenidor_primer_imatge{
+				display: flex;
+				-webkit-flex-direction: row;
+				/*border:1px solid black;*/
+				height:100%;
+				
+				flex:3;
+				float:right;
+			}
+			
+			.contenidor_circle{
+					width: 380px;
+					height: 380px;
+					background: #37383a;
+					border: 30px solid #9e42f4;
+					border-radius: 50%;
+			}
+			
+			.contenidor_circle p{
+				text-align:center;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 330px;
+				color:white;
+				font-family:"Courier New", Courier, monospace;
+				
+			}
+			
+			/* BUTTON */
+			.round-button {
+				width: 30%;
+				border-radius: 25px;
+				overflow: hidden;
+				background: #9e42f4;
+				flex:1;
+			}
+			.round-button:hover {
+				background: #262626;
+			}
+			.round-button p{
+				text-align:center;
+				color:white;
+				font-family:"Courier New", Courier, monospace;
+				font-size:15px;
+				
+			}
+			
+			.testing{
+				display: flex;
+				-webkit-flex-direction: column;
+				/*border:1px solid pink;*/
+				text-align:center;
+				margin: 0 auto;
+			}
+			
+			/* HR PER EL SHADOW */
+			hr {
+				border:none;
+				height: 20px;
+				width: 98%;
+				height: 50px;
+				margin-top: 0;
+				border-bottom: 1px solid #1f1209;
+				box-shadow: 0 20px 20px -20px #333;
+				margin: -50px auto 10px; 
+			}
+			
+			/* --------------------------------------------------- */
+			/* LATEST PROJECTS*/
+			/* --------------------------------------------------- */
+			.latest_projects{
+				-webkit-flex-direction: column;
+				 display: flex;
+				 -webkit-flex-wrap: nowrap;
+				 
+			}
+			.latest_projects3{
+				-webkit-flex-direction: row;
+				 display: flex;
+				 -webkit-flex-wrap: wrap;
+			}
+			
+			.latest_projects2{
+				-webkit-flex-direction: row;
+				 display: flex;
+				 -webkit-flex-wrap: wrap;
+			}
+			
+			.lp_titol{
+				flex:4;
+				/*border:1px solid green;*/
+				text-align:center;
+				
+			}
+			
+			.lp_titol3{
+				flex:1;
+				/*border:1px solid green;*/
+			}
+			
+			.lp_titol2{
+				flex:1;
+				/*border:1px solid green;*/
+			}
+			
+			.lp_footer{
+				flex:1;
+				/*border:1px solid green;*/
+			}
+			
+			
+			.lp_titol2 p:hover{
+				color:white;
+				background-color:#9e42f4;
+			}
+			
+			.lp_titol2 p:hover img:hover{
+				color:white;
+				background-color:#9e42f4;
+			}
+			
+			.lp_titol3 .text_titol_tp{
+				font-family:"Courier New", Courier, monospace;
+				font-size:16px;
+				color:black;
+				font-weight: 900;
+				text-align:center;
+				background-color:#ededed;
+				padding-top:10px;
+				padding-bottom:10px;
+				width:225px;
+				display:block;
+				margin:auto;
+			}
+
+			.lp_titol p{
+				font-family:"Courier New", Courier, monospace;
+				font-size:18px;
+				color:black;
+				font-weight: 900;
+			}
+			
+			/* IMATGES CENTRADES */
+			.lp_titol2 img{
+				display:block;
+				margin:auto;
+				
+			}
+			
+			.text_titol_tp_titol{
+				text-align:left;
+				margin-left:1.3%;
+				border-bottom:1px solid grey;
+				
+			}
+			
+			
+			.lp_titol2 .text_titol_tp{
+				font-family:"Courier New", Courier, monospace;
+				font-size:16px;
+				color:black;
+				font-weight: 900;
+				text-align:center;
+				background-color:#ededed;
+				padding-top:10px;
+				padding-bottom:10px;
+				width:225px;
+				display:block;
+				margin:auto;
+			}
+			
+			.text_titol_tp{
+				/*border:1px solid blue;*/
+				margin-left:1.3%;
+			}
+			
+			.text_tito2_tp{
+				font-family:"Courier New", Courier, monospace;
+				font-size:12px;
+				color:#979899;
+				font-weight: 900;
+				text-align:center;
+				background-color:#ededed;
+				padding-top:10px;
+				padding-bottom:10px;
+				font-style: oblique;
+				padding-top:15px;
+				padding-bottom:15px;
+				width:225px;
+				display:block;
+				margin:auto;
+			}
+			
+			.semi_text .text_titol_tp{
+				font-family:"Courier New", Courier, monospace;
+				font-size:16px;
+				color:black;
+				font-weight: 900;
+				text-align:center;
+				background-color:#ededed;
+				padding-top:10px;
+				padding-bottom:10px;
+				width:225px;
+				display:block;
+				margin:auto;
+				flex:1;
+				
+			}
+			
+			.capçalera_textos{
+				 display: flex;
+				  -webkit-flex-direction: row;
+				 /* border:1px solid red;*/
+			}
+			
+			.text_1_titol_1{
+				float:left;
+				flex:2;
+				/*border:1px solid yellow;*/
+				font-family:"Courier New", Courier, monospace;
+				font-size:18px;
+				color:black;
+				font-weight: 900;
+			}
+			
+			.text_1_titol_2{
+				float:right;
+				flex:1;
+				/*border:1px solid yellow;*/
+				font-family:"Courier New", Courier, monospace;
+				font-size:18px;
+				color:black;
+				font-weight: 900;
+				
+			}
+			
+			.text_1_titol_2 p, .text_1_titol_1 p {
+				text-align:left;
+				margin-left:1.3%;
+				border-bottom:1px solid grey;
+			}
+			
+			.text_footer{
+				font-family:"Courier New", Courier, monospace;
+				color:#979899;
+				margin-left:1.3%;
+			}
+
+			
+			}
+			/* --------------------------------------- */
+			/* FOOTER */
+			.footer{
+				-webkit-flex-direction: row;
+				 display: flex;
+				 -webkit-flex-wrap: wrap;
+			}
+			
+			.lp_footer > img{
+				display:block;
+				margin:auto;
+			}
+
+			.lp_footer_dret > img {
+				margin-top:1px;
+				
+			}
+			
+			.lp_footer_dret img{
+				margin-left:2%;
+			}
+			
+			p.littletittle{
+				float:right;
+			}
+			
+			.text_contenidor_deBaix{
+				font-family:"Courier New", Courier, monospace;
+				font-weight: 900;
+				color:#979899;
+				margin-left:2%;
+			}
+					
+			.footer_content{
+				border:1px solid red;
+			}
+			
+			.text_footer_testing{
+				color:#979899;
+				margin-left:1.3%;
+				text-align:justify;
+				font-size:14px;
+				padding-left:1%;
+				padding-right:2%;
+			}
+			.lp_footer_foot h3{
+				color:#black;
+				margin-left:2%;
+			}
+			
+			.lp_footer_foot{
+				flex:1;
+				/*border:1px solid green;*/
+			}
+			
+			.lp_footer_foot a{
+				text-decoration:none;
+			}
+			
+			.lp_footer a{
+				text-decoration:none;
+			}
+			
+			#sub_title{
+				color:#979899;
+				margin-left:2%;
+				font-size:10px;
+				margin-top:-20px;
+			}
+			
+			#link_text_footer{
+				color:#9e42f4;
+				font-size:10px;
+				text-align:right;
+				margin-right:2%;
+				
+			}
+			
+			.text_contenidor_deBaix_links{
+				margin-left:2%;
+				color:#9e42f4;
+				text-decoration:none;
+				font-size:12px;
+				border-bottom:1px solid #979899;
+			}
+			
+			.text_contenidor_deBaix_Contact{
+				color:#979899;
+				font-size:12px;
+				margin-left:2%;
+			}
+			
+			.bordobt{
+				text-decoration:none;
+			}
+			
+			.bordobt p {
+				float:right;
+				margin-right:70%;
+			}
+			
+			.bordobt p:hover{
+				font-weight: 900;
+			}
+			.bordobt2 p:hover{
+				font-weight: 900;
+			}
+			.bordobt3 p:hover{
+				font-weight: 900;
+			}
+			.bordobt4 p:hover{
+				font-weight: 900;
+			}
+			
+			.bordobt2 p{
+				float:right;
+				margin-right:73%;
+			}
+			
+			..bordobt2{
+				text-decoration:none;
+			}
+			
+			.bordobt4{
+				text-decoration:none;
+			}
+			
+			.bordobt4 p {
+				float:right;
+				margin-right:68%;
+			}
+			
+			.bordobt3{
+				text-decoration:none;
+			}
+			
+			.bordobt3 p {
+				float:right;
+				margin-right:70%;
+			}
+			
+			.testing_raton{
+				border-bottom:1px solid #979899;
+				margin-left:2%;
+			}
+			
+			/* --------------------------------------- */
+
+		/* --------------------------------------- */
+		/* ESTO SERA PARA CUANDO ESTA MAXIMIZADO */
+		/* --------------------------------------- */
+		@media screen and (min-width: 1080px) and (max-width:1920px){
+		
+		}
+		
+		/* --------------------------------------- */
+		/* ESTO SERA PARA CUANDO MOVERSE PA ABAJO */
+		/* --------------------------------------- */
+		@media screen and (min-width: 500px) and (max-width:1079){
+		
+			
+		  
+		  }
+
+
+
+
+
+
+/* ------------------------------------------------------ */
