@@ -1,1 +1,2 @@
-- CreaciÛn de una tabla con flex, a partir de un archivo .jpg. Tenemos que hacerlo lo m·s idÈntico que podamos
+- Creaci√≥n de una tabla con flex, a partir de un archivo .jpg. Tenemos que hacerlo lo m√°s id√©ntico que podamos
+(View oferton_table.jpg) - Exercise 
