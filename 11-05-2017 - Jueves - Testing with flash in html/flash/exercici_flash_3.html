@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<style>
+figure{display:table;}
+figcaption{display:table-caption; caption-side:bottom;}
+</style>
+</head>
+<body>
+<h1>Objecto flash</h1>
+
+ 
+    <!--[if !IE]>-->
+    <object type="application/x-shockwave-flash" data="http://ew-box.com/cime/perro.swf" width="550" height="400">
+        <param name="movie" value="http://ew-box.com/cime/perro.swf"/>
+    <!--<![endif]-->
+        <a href="http://www.adobe.com/go/getflash">
+            <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"/>
+        </a>
+    <!--[if !IE]>-->
+    </object>
+  
+<hr/>
+<h1>Mapa</h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12236.557364430892!2d4.14115055!3d39.93827275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1494320644039" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<hr/>
+<h1> Video iframe</h1>
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/DLUiCVg9uLI?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<h1> Video OGG</h1>
+
+
+<figure>
+	<video width="400" controls>
+	   
+		<source src="mov_bbb.ogg" type="video/ogg" />
+			Your browser does not support HTML5 video.
+	</video>
+	
+	<figcaption>
+		Video OGG
+	</figcaption>
+</figure>
+<hr/>
+<h1>Audio MP3</h1>
+
+    
+
+<audio id="sonido" src="./podcast.mp3">
+	
+</audio>
+
+<button onclick="javascript:document.getElementById('sonido').play();">
+	Ejecutar
+</button>
+	<button onclick="javascript:document.getElementById('sonido').pause();">
+	
+	Pausa
+</button>
+	</body>
+</html>
