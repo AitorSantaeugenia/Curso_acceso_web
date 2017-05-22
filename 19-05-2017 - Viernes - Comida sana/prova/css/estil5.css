@@ -1,0 +1,1604 @@
+@media screen and (min-width: 821px) and (max-width: 1980px){
+	.contenidor{
+			width:100%;
+			border: 1px solid transparent;
+			height:100%;
+			display: flex;
+			-webkit-flex-direction: row;
+			flex-wrap: wrap;
+			flex:4;
+		}
+/* ---------------------------- CONTINGUT HEADER ---------------------------- */	
+		.contingut_contenidor_header{
+			border:1px solid transparent;
+			width:100%;
+			height:100%;
+			display:block;
+			background:#434444;
+		}
+	/* ---------------------------- MENU ---------------------------- */
+		.contenidor_menu{
+			border:1px solid transparent;
+			float:left;
+			flex:3;
+			display:flex;
+			width:66%;
+		}
+		
+		.nav ul{
+				font-family:"Courier New", Courier, monospace;
+				
+				
+			}
+			
+		.nav {
+			font-size:26px;
+			overflow:hidden;
+			text-align:justify;
+			border:1px solid transparent;
+			font-weight:600;
+			
+
+			}
+			
+		/* MOURE EL DESPLEGABLE AL CENTRE REALMENT, LI ESTEM ELIMINANT PIXELS PER DEIXAR-HO FIXAT */
+		.nav li ul li {
+			position:relative;
+		}	
+		
+		.nav ul li ul{
+			margin-top:2.7%;
+		}
+			
+		.nav li ul{
+			display:none;
+			position:absolute;
+		}
+
+		
+		.nav-list {
+			float:left;
+			}
+			
+		.nav-item {
+			float:left;
+			/*display:inline-block;*/
+			display: flex;
+			width:200px;
+			border-bottom:1px solid green;
+			
+
+			}
+			
+		.nav li ul {
+			/* AMB AIXO OCULTAREM EL QUE ESTA FET, EL DESPLEGABLE */
+			display:none;
+			
+			/* NECESITEM UN POSITION ABSOLUTE PERQUE NO PETI */
+			position:absolute;
+		}
+		
+		.nav  li:hover > ul  {
+			/* ALTRE COP DISPLAY BLOCK PER MOSTRAR-HO BE*/
+			display:block;		
+		}
+			
+						/* Estils de la lista */
+		ul, ol {
+			list-style:none;
+		}
+			
+		.nav-item a {
+			color:pink;
+			background:none;
+			text-decoration:none;
+			text-align:center;
+			height:100%;
+			width:100%;
+			padding-top:10%;
+			display:block;
+		
+			}
+			
+			
+		.nav-item a:hover {
+			  background:#afefa5;
+			  color:black;
+			  
+			}
+	/* ---------------------------- LOGO ---------------------------- */	
+		.contenidor_logo{
+			float:left;
+			border:1px solid transparent;
+			flex:1;
+			width:30%;
+			height:180px;
+		}
+
+		.contenidor_logo a{
+			  text-decoration: none;
+			  font-size:70px;
+			  color:#afefa5;
+		}
+		
+		.text_logo{
+			margin-left:31%;
+			margin-top:-20%;
+			border-right:1px solid green;
+		}
+		
+	/* ---------------------------- BODY ---------------------------- */ 
+		.contenidor_body{
+			width:100%;
+			height:100%;
+			border:1px solid transparent;
+			-webkit-flex-direction: row;
+			display: flex;
+			-webkit-flex-wrap: wrap;
+		}
+
+		/* ---------------------------- FOTOS I ASIDE ---------------------------- */
+		.latest_projects2{
+				 border:1px solid transparent;
+				 flex:4;
+				 -webkit-flex-direction: column;
+				 display: flex;
+				 -webkit-flex-wrap: wrap;
+				 float:left;
+				 height:100%;
+			}
+
+			
+			/* THIS IS THE ASIDE, !"·!"·!" */
+			.lp_titol{
+				flex:1;
+				border:1px solid transparent;
+				text-align:center;
+				float:left;	
+				background-color:#afefa5;
+			}
+			
+			.lp_titol_contenido{
+				flex:1;
+				border:1px solid transparent;
+				text-align:center;
+				float:left;	
+				background-color:#afefa5;
+			}
+			
+			.lp_titol_contenido .article_dins_aside{
+				margin:0 auto;
+			}
+			
+			.lp_titol_contenido_2_column{
+				flex:1;
+				border:1px solid transparent;
+				text-align:center;
+				float:left;	
+				background-color:#afefa5;
+			}
+			
+			.lp_titol2{
+				flex:1;
+				border:1px solid black;
+				text-align:center;
+				float:left;
+				margin-left:4%;
+				margin-top:5%;
+				border-radius:5px;
+			}
+			
+			.lp_titol2_contenido{
+				flex:1;
+				border:1px solid black;
+				text-align:center;
+				float:left;
+				margin-left:6%;
+				margin-top:5%;
+				border-radius:5px;
+			}
+			
+			.lp_titol2 img{
+				display:block;
+				margin:auto;
+				float:left;			
+			}
+			
+			.lp_titol4{
+				display:block;
+				margin:auto;
+				float:left;
+				text-align:center;
+				width:100%;
+			}
+			
+			.texto_random_subtitle{
+					font-size:50px;
+					font-family:"Comic Sans MS", cursive, sans-serif;
+					border-bottom:1px solid grey;
+					text-align:center;
+					width:90%;
+					color:green;
+					margin:0 auto;
+			}
+			
+			.lp_titol1_contenido{
+				flex:1;
+				border:1px solid transparent;
+				height:100%;
+				margin-left:4%;
+			}
+			
+						
+			.text_titol_tp{
+				font-family:"Courier New", Courier, monospace;
+				font-size:16px;
+				color:black;
+				font-weight: 900;
+				text-align:center;
+				background-color:#ededed;
+				padding-top:10px;
+				padding-bottom:10px;
+				width:225px;
+				display:block;
+				margin:auto;
+			}
+			
+			.lp_titol2 p:hover{
+				color:black;
+				background-color:#afefa5;
+			}
+			
+			.lp_titol2_contenido p:hover{
+				color:black;
+				background-color:#afefa5;
+			}
+			
+			.lp_titol2 a{
+				text-decoration:none;
+			}
+			
+			.lp_titol2_contenido a{
+				text-decoration:none;
+			}
+			
+			.lp_titol2 a:hover{
+				color:black;
+				background-color:#afefa5;
+			}
+			
+			.lp_titol2 img:hover{
+				box-shadow: 5px 5px #afefa5;
+			}
+			
+			.lp_titol2_contenido a:hover{
+				color:black;
+				background-color:#afefa5;
+			}
+			
+			.lp_titol2_contenido img:hover{
+				box-shadow: 5px 5px #afefa5;
+			}
+			
+			/* ------------------------------------------------------------------- */
+			
+			/* ------------------------------ ASIDE ------------------------------- */
+			.article_dins_aside{
+				/*border:1px solid green;*/
+				width:100%;
+				display:block;
+				height:100%;
+
+				
+			}
+			
+			.text_cocina_aside_contenido{
+				font-family:Monospace;
+				padding-bottom:2%;
+				font-size:20px;
+			}
+
+			.titulo_receta{
+				font-family:"Comic Sans MS", cursive, sans-serif;
+			}
+			
+			.text_cocina_aside h3{
+				color:blue;
+				margin-right:9%;
+			}
+			
+			.elaboracion{
+				font-family:Monospace;
+				text-align:justify;
+				
+			}
+			
+			.elaboracion h3{
+				color:blue;
+				font-size:20px;
+				text-align:center;
+			}
+			
+			
+			
+			.text_cocina_aside a{
+				text-decoration:none;
+			}
+			.text_cocina_aside{
+				border-bottom:1px solid green;
+				
+			}
+			.article_dins_aside > p {
+				font-size:40px;
+				border-bottom:1px solid green;
+				padding-bottom:8%;
+				font-weight:600;
+
+			}
+
+			.article_dins_aside p {
+				font-size:40px;
+				padding-bottom:8%;
+				font-weight:600;
+
+			}
+			
+			#testing_borders{
+				border-radius:25px;
+			}
+			/* ------------------------------------------------------------------- */
+			
+			/* ------------------------------ FOOTER ------------------------------- */
+			.footer{
+				width:100%;
+				height:100%;
+				border:1px solid transparent;
+				-webkit-flex-direction: column;
+				 -webkit-flex-wrap: wrap;
+				 font-family:"Courier New", Courier, monospace;
+				 
+			}
+			
+			.text_footer_div{
+				float:left;
+				border:1px solid transparent;
+				width:100%;
+				background-color: #afefa5;
+			}
+			
+			.text_footer_div_contenido {
+				float:left;
+				border:1px solid transparent;
+				width:100%;
+				background-color: #afefa5;
+			}
+			
+			.text_footer{
+				font-family:"Courier New", Courier, monospace;
+				color:black;
+				margin-left:1.3%;
+				text-align:center;
+				float:left;
+				border:1px solid transparent;
+				margin-top:2%;
+				margin-left:20%;
+				
+			}
+			
+			.text_footer2{
+				font-family:"Courier New", Courier, monospace;
+				color:black;
+				border:1px solid transparent;
+				margin-left:20%;
+				text-align:center;
+				float:left;
+				border-left:1px solid green;
+				width:30%;
+				
+				
+			}
+			
+			.text_footer3{
+				font-family:"Courier New", Courier, monospace;
+				color:transparent;
+				margin-left:1.3%;
+
+			}
+			
+			.lp_footer{
+				border:1px solid transparent;
+				width:100%;
+				float:left;
+				background-color: #434444;
+			}
+			
+			.lp_footer a{
+				text-decoration:none;
+				color:white;
+			}
+			
+			.lp_footer a:hover{
+				text-decoration:none;
+				color:#afefa5;;
+			}
+			
+			.testing_raton{
+				margin-left:17%;
+				float:left;
+				
+			}
+			.testing_raton img:first-child{
+				margin-left:10%;
+			}
+			/* ------------------------------ FOOTER ------------------------------- */
+			
+			/* ------------------------------- CONTENIDO --------------------------- */
+			.latest_projects2_contenido{
+				 border:1px solid transparent;
+				 flex:2;
+				 -webkit-flex-direction: column;
+				 display: flex;
+				 -webkit-flex-wrap: wrap;
+				 float:left;
+				 height:100%;
+			}
+			
+			.latest_projects2_contenido_2_column{
+				 border:1px solid transparent;
+				 flex:2;
+				 -webkit-flex-direction: column;
+				 display: flex;
+				 -webkit-flex-wrap: wrap;
+				 float:left;
+				 height:100%;
+			}
+			
+/* ------------------------------------------------------------------------------------------------- */
+	#page-wrap {
+		margin: 50px;
+	}
+	p {
+		margin: 20px 0; 
+	}
+
+	
+	table { 
+		width: 100%; 
+		border:0px; 
+	}
+	
+	/* cambio de colores linea */
+	
+	tr:nth-of-type(odd) { 
+		background: white; 
+	}
+	
+	th { 
+		background: #434444;
+		color: white; 
+		font-weight: bold; 
+	}
+	
+	td, th { 
+		padding: 6px; 
+		border: 1px solid #ccc; 
+		text-align: center; 
+	}
+	
+	tr:hover{
+			background-color: lightyellow;
+		}
+
+	.latest_projects2_contenido_table_video{
+		background-color:#afefa5;
+		flex:1;
+	}
+	
+	#testing_borders_test{
+		border-radius:25px;
+	}
+	
+	.lp_titol_aside{
+			flex:1;
+				border:1px solid transparent;
+				text-align:center;
+				float:left;	
+	}
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px){
+		.contenidor{
+			width:100%;
+			border: 1px solid transparent;
+			height:100%;
+			display: flex;
+			-webkit-flex-direction: row;
+			flex-wrap: wrap;
+			flex:4;
+		}
+		
+		#hidden2 {
+			display:none;
+		}
+		#hidden3{
+			display:none;
+		}
+		#hidden2{
+			display:none;
+		}
+		#hidden1{
+			display:none;
+		}
+		
+		#hidden5{
+			display:none;
+		}
+		
+		table, thead, tbody, th, td, tr 
+		{
+			display: block;
+		}
+
+		
+		thead tr {
+			
+			display:none;
+		}
+		
+		tr { border: 1px solid #ccc; }
+
+		td {
+			 
+			border: none;
+			border-bottom: 1px solid #eee;
+			position: relative;
+			padding-left: 50%;
+		}
+
+		td:before {
+			 
+			position: absolute;
+			 
+			top: 6px;
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			white-space: nowrap;
+		}
+
+		/*
+		w3schools:
+		the nth-of-type(n) selector matches every element that is the nth child, of a particular type, of its parent.
+		*/
+		td:nth-of-type(1):before { content: "First Name"; }
+		td:nth-of-type(2):before { content: "Last Name"; }
+		td:nth-of-type(3):before { content: "Job"; }
+		td:nth-of-type(4):before { content: "Color"; }
+		td:nth-of-type(5):before { content: "Hobby"; }
+		td:nth-of-type(6):before { content: "Name"; }
+		td:nth-of-type(7):before { content: "Birth"; }
+		td:nth-of-type(8):before { content: "City"; }
+		td:nth-of-type(9):before { content: "Version"; }
+		td:nth-of-type(10):before { content: "Data"; }
+		
+		td:hover{
+			background-color: red;
+		}
+
+/* ---------------------------- CONTINGUT HEADER ---------------------------- */	
+		.contingut_contenidor_header{
+			border:1px solid transparent;
+			width:100%;
+			height:100%;
+			display:block;
+			background:#434444;
+		}
+	/* ---------------------------- MENU ---------------------------- */
+		.contenidor_menu{
+			border:1px solid transparent;
+			float:left;
+			flex:3;
+			display:flex;
+			width:66%;
+		}
+		
+		.nav ul{
+				font-family:"Courier New", Courier, monospace;
+				
+				
+			}
+			
+		.nav {
+			font-size:26px;
+			overflow:hidden;
+			text-align:justify;
+			border:1px solid transparent;
+			font-weight:600;
+			
+
+			}
+			
+		/* MOURE EL DESPLEGABLE AL CENTRE REALMENT, LI ESTEM ELIMINANT PIXELS PER DEIXAR-HO FIXAT */
+		.nav li ul li {
+			position:relative;
+		}	
+		
+		.nav ul li ul{
+			margin-top:2.7%;
+		}
+			
+		.nav li ul{
+			display:none;
+			position:absolute;
+		}
+
+		
+		.nav-list {
+			float:left;
+			}
+			
+		.nav-item {
+			float:left;
+			/*display:inline-block;*/
+			display: flex;
+			width:200px;
+			border-bottom:1px solid green;
+			
+
+			}
+			
+		.nav li ul {
+			/* AMB AIXO OCULTAREM EL QUE ESTA FET, EL DESPLEGABLE */
+			display:none;
+			
+			/* NECESITEM UN POSITION ABSOLUTE PERQUE NO PETI */
+			position:absolute;
+		}
+		
+		.nav  li:hover > ul  {
+			/* ALTRE COP DISPLAY BLOCK PER MOSTRAR-HO BE*/
+			display:block;		
+		}
+			
+						/* Estils de la lista */
+		ul, ol {
+			list-style:none;
+		}
+			
+		.nav-item a {
+			color:pink;
+			background:none;
+			text-decoration:none;
+			text-align:center;
+			height:100%;
+			width:100%;
+			padding-top:10%;
+			display:block;
+		
+			}
+			
+			
+		.nav-item a:hover {
+			  background:#afefa5;
+			  color:black;
+			  
+			}
+	/* ---------------------------- LOGO ---------------------------- */	
+		.contenidor_logo{
+			float:left;
+			border:1px solid transparent;
+			flex:1;
+			width:30%;
+			height:180px;
+		}
+
+		.contenidor_logo a{
+			  text-decoration: none;
+			  font-size:70px;
+			  color:#afefa5;
+		}
+		
+		.text_logo{
+			margin-left:31%;
+			margin-top:-20%;
+			border-right:1px solid green;
+		}
+		
+	/* ---------------------------- BODY ---------------------------- */ 
+		.contenidor_body{
+			width:100%;
+			height:100%;
+			border:1px solid transparent;
+			-webkit-flex-direction: row;
+			display: flex;
+			-webkit-flex-wrap: wrap;
+		}
+
+		/* ---------------------------- FOTOS I ASIDE ---------------------------- */
+		.latest_projects2{
+				 border:1px solid transparent;
+				 flex:4;
+				 -webkit-flex-direction: column;
+				 display: flex;
+				 -webkit-flex-wrap: wrap;
+				 float:left;
+				 height:100%;
+			}
+
+			
+			/* THIS IS THE ASIDE, !"·!"·!" */
+			.lp_titol{
+				flex:1;
+				border:1px solid transparent;
+				text-align:center;
+				float:left;	
+				background-color:#afefa5;
+			}
+			
+			.lp_titol_contenido{
+				flex:1;
+				border:1px solid transparent;
+				text-align:center;
+				float:left;	
+				background-color:#afefa5;
+			}
+			
+			.lp_titol_contenido .article_dins_aside{
+				margin:0 auto;
+			}
+			
+			.lp_titol_contenido_2_column{
+				flex:1;
+				border:1px solid transparent;
+				text-align:center;
+				float:left;	
+				background-color:#afefa5;
+			}
+			
+			.lp_titol2{
+				flex:1;
+				border:1px solid black;
+				text-align:center;
+				float:left;
+				margin-left:4%;
+				margin-top:5%;
+				border-radius:5px;
+			}
+			
+			.lp_titol2_contenido{
+				flex:1;
+				border:1px solid black;
+				text-align:center;
+				float:left;
+				margin-left:6%;
+				margin-top:5%;
+				border-radius:5px;
+			}
+			
+			.lp_titol2 img{
+				display:block;
+				margin:auto;
+				float:left;			
+			}
+			
+			.lp_titol4{
+				display:block;
+				margin:auto;
+				float:left;
+				text-align:center;
+				width:100%;
+			}
+			
+			.texto_random_subtitle{
+					font-size:50px;
+					font-family:"Comic Sans MS", cursive, sans-serif;
+					border-bottom:1px solid grey;
+					text-align:center;
+					width:90%;
+					color:green;
+					margin:0 auto;
+			}
+			
+			.lp_titol1_contenido{
+				flex:1;
+				border:1px solid transparent;
+				height:100%;
+				margin-left:4%;
+			}
+			
+						
+			.text_titol_tp{
+				font-family:"Courier New", Courier, monospace;
+				font-size:16px;
+				color:black;
+				font-weight: 900;
+				text-align:center;
+				background-color:#ededed;
+				padding-top:10px;
+				padding-bottom:10px;
+				width:225px;
+				display:block;
+				margin:auto;
+			}
+			
+			.lp_titol2 p:hover{
+				color:black;
+				background-color:#afefa5;
+			}
+			
+			.lp_titol2_contenido p:hover{
+				color:black;
+				background-color:#afefa5;
+			}
+			
+			.lp_titol2 a{
+				text-decoration:none;
+			}
+			
+			.lp_titol2_contenido a{
+				text-decoration:none;
+			}
+			
+			.lp_titol2 a:hover{
+				color:black;
+				background-color:#afefa5;
+			}
+			
+			.lp_titol2 img:hover{
+				box-shadow: 5px 5px #afefa5;
+			}
+			
+			.lp_titol2_contenido a:hover{
+				color:black;
+				background-color:#afefa5;
+			}
+			
+			.lp_titol2_contenido img:hover{
+				box-shadow: 5px 5px #afefa5;
+			}
+			
+			/* ------------------------------------------------------------------- */
+			
+			/* ------------------------------ ASIDE ------------------------------- */
+			.article_dins_aside{
+				/*border:1px solid green;*/
+				width:100%;
+				display:block;
+				height:100%;
+
+				
+			}
+			
+			.text_cocina_aside_contenido{
+				font-family:Monospace;
+				padding-bottom:2%;
+				font-size:20px;
+			}
+
+			.titulo_receta{
+				font-family:"Comic Sans MS", cursive, sans-serif;
+			}
+			
+			.text_cocina_aside h3{
+				color:blue;
+				margin-right:9%;
+			}
+			
+			.elaboracion{
+				font-family:Monospace;
+				text-align:justify;
+				
+			}
+			
+			.elaboracion h3{
+				color:blue;
+				font-size:20px;
+				text-align:center;
+			}
+			
+			
+			
+			.text_cocina_aside a{
+				text-decoration:none;
+			}
+			.text_cocina_aside{
+				border-bottom:1px solid green;
+				
+			}
+			.article_dins_aside > p {
+				font-size:40px;
+				border-bottom:1px solid green;
+				padding-bottom:8%;
+				font-weight:600;
+
+			}
+
+			.article_dins_aside p {
+				font-size:40px;
+				padding-bottom:8%;
+				font-weight:600;
+
+			}
+			
+			#testing_borders{
+				border-radius:25px;
+			}
+			/* ------------------------------------------------------------------- */
+			
+			/* ------------------------------ FOOTER ------------------------------- */
+			.footer{
+				width:100%;
+				height:100%;
+				border:1px solid transparent;
+				-webkit-flex-direction: column;
+				 -webkit-flex-wrap: wrap;
+				 font-family:"Courier New", Courier, monospace;
+				 
+			}
+			
+			.text_footer_div{
+				float:left;
+				border:1px solid transparent;
+				width:100%;
+				background-color: #afefa5;
+			}
+			
+			.text_footer_div_contenido {
+				float:left;
+				border:1px solid transparent;
+				width:100%;
+				background-color: #afefa5;
+			}
+			
+			.text_footer{
+				font-family:"Courier New", Courier, monospace;
+				color:black;
+				margin-left:1.3%;
+				text-align:center;
+				float:left;
+				border:1px solid transparent;
+				margin-top:2%;
+				margin-left:20%;
+				
+			}
+			
+			.text_footer2{
+				font-family:"Courier New", Courier, monospace;
+				color:black;
+				border:1px solid transparent;
+				margin-left:20%;
+				text-align:center;
+				float:left;
+				border-left:1px solid green;
+				width:30%;
+				
+				
+			}
+			
+			.text_footer3{
+				font-family:"Courier New", Courier, monospace;
+				color:transparent;
+				margin-left:1.3%;
+
+			}
+			
+			.lp_footer{
+				border:1px solid transparent;
+				width:100%;
+				float:left;
+				background-color: #434444;
+			}
+			
+			.lp_footer a{
+				text-decoration:none;
+				color:white;
+			}
+			
+			.lp_footer a:hover{
+				text-decoration:none;
+				color:#afefa5;;
+			}
+			
+			.testing_raton{
+				margin-left:17%;
+				float:left;
+				
+			}
+			.testing_raton img:first-child{
+				margin-left:10%;
+			}
+			/* ------------------------------ FOOTER ------------------------------- */
+			
+			/* ------------------------------- CONTENIDO --------------------------- */
+			.latest_projects2_contenido{
+				 border:1px solid transparent;
+				 flex:2;
+				 -webkit-flex-direction: column;
+				 display: flex;
+				 -webkit-flex-wrap: wrap;
+				 float:left;
+				 height:100%;
+			}
+			
+			.latest_projects2_contenido_2_column{
+				 border:1px solid transparent;
+				 flex:2;
+				 -webkit-flex-direction: column;
+				 display: none;
+				 -webkit-flex-wrap: wrap;
+				 float:left;
+				 height:100%;
+
+			}
+			
+/* ------------------------------------------------------------------------------------------------- */
+	#page-wrap {
+		margin: 50px;
+	}
+	p {
+		margin: 20px 0; 
+	}
+
+	
+	table { 
+		width: 100%; 
+		border:0px; 
+	}
+	
+	/* cambio de colores linea */
+	
+	tr:nth-of-type(odd) { 
+		background: white; 
+	}
+	
+	th { 
+		background: #434444;
+		color: white; 
+		font-weight: bold; 
+	}
+	
+	td, th { 
+		padding: 6px; 
+		border: 1px solid #ccc; 
+		text-align: center; 
+	}
+	
+	tr:hover{
+			background-color: lightyellow;
+		}
+
+	.latest_projects2_contenido_table_video{
+		background-color:#afefa5;
+		flex:1;
+	}
+	
+	#testing_borders_test{
+		border-radius:25px;
+	}
+	
+	.lp_titol_aside{
+			flex:1;
+				border:1px solid transparent;
+				text-align:center;
+				float:left;	
+	}
+}
+
+@media screen and (min-width: 501px) and (max-width: 820px){
+		.contenidor{
+			width:100%;
+			border: 1px solid transparent;
+			height:100%;
+			display: flex;
+			-webkit-flex-direction: row;
+			flex-wrap: wrap;
+			flex:4;
+		}
+		
+		#hiddentoo{
+			display:none;
+		}
+		#hiddentoo2{
+			display:none;
+		}
+		#hiddentoo3{
+			display:none;
+		}
+/* ---------------------------- CONTINGUT HEADER ---------------------------- */	
+		.contingut_contenidor_header{
+			border:1px solid transparent;
+			width:100%;
+			height:100%;
+			display:block;
+			background:#434444;
+		}
+	/* ---------------------------- MENU ---------------------------- */
+		.contenidor_menu{
+			border:1px solid transparent;
+			float:left;
+			flex:3;
+			display:flex;
+			width:66%;
+		}
+		
+		.nav ul{
+				font-family:"Courier New", Courier, monospace;
+				
+				
+			}
+			
+		.nav {
+			font-size:26px;
+			overflow:hidden;
+			text-align:justify;
+			border:1px solid transparent;
+			font-weight:600;
+			
+
+			}
+			
+		/* MOURE EL DESPLEGABLE AL CENTRE REALMENT, LI ESTEM ELIMINANT PIXELS PER DEIXAR-HO FIXAT */
+		.nav li ul li {
+			position:relative;
+		}	
+		
+		.nav ul li ul{
+			margin-top:2.7%;
+		}
+			
+		.nav li ul{
+			display:none;
+			position:absolute;
+		}
+
+		
+		.nav-list {
+			float:left;
+			}
+			
+		.nav-item {
+			float:left;
+			/*display:inline-block;*/
+			display: flex;
+			width:200px;
+			border-bottom:1px solid green;
+			
+
+			}
+			
+		.nav li ul {
+			/* AMB AIXO OCULTAREM EL QUE ESTA FET, EL DESPLEGABLE */
+			display:none;
+			
+			/* NECESITEM UN POSITION ABSOLUTE PERQUE NO PETI */
+			position:absolute;
+		}
+		
+		.nav  li:hover > ul  {
+			/* ALTRE COP DISPLAY BLOCK PER MOSTRAR-HO BE*/
+			display:block;		
+		}
+			
+						/* Estils de la lista */
+		ul, ol {
+			list-style:none;
+		}
+			
+		.nav-item a {
+			color:pink;
+			background:none;
+			text-decoration:none;
+			text-align:center;
+			height:100%;
+			width:100%;
+			padding-top:10%;
+			display:block;
+		
+			}
+			
+			
+		.nav-item a:hover {
+			  background:#afefa5;
+			  color:black;
+			  
+			}
+	/* ---------------------------- LOGO ---------------------------- */	
+		.contenidor_logo{
+			float:left;
+			border:1px solid transparent;
+			flex:1;
+			width:30%;
+			height:180px;
+		}
+
+		.contenidor_logo a{
+			  text-decoration: none;
+			  font-size:70px;
+			  color:#afefa5;
+		}
+		
+		.text_logo{
+			margin-left:31%;
+			margin-top:-20%;
+			border-right:1px solid green;
+		}
+		
+	/* ---------------------------- BODY ---------------------------- */ 
+		.contenidor_body{
+			width:100%;
+			height:100%;
+			border:1px solid transparent;
+			-webkit-flex-direction: row;
+			display: flex;
+			-webkit-flex-wrap: wrap;
+		}
+
+		/* ---------------------------- FOTOS I ASIDE ---------------------------- */
+		.latest_projects2{
+				 border:1px solid transparent;
+				 flex:4;
+				 -webkit-flex-direction: column;
+				 display: flex;
+				 -webkit-flex-wrap: wrap;
+				 float:left;
+				 height:100%;
+			}
+
+			
+			/* THIS IS THE ASIDE, !"·!"·!" */
+			.lp_titol{
+				flex:1;
+				border:1px solid transparent;
+				text-align:center;
+				float:left;	
+				background-color:#afefa5;
+			}
+			
+			.lp_titol_contenido{
+				flex:1;
+				border:1px solid transparent;
+				text-align:center;
+				float:left;	
+				background-color:#afefa5;
+			}
+			
+			.lp_titol_contenido .article_dins_aside{
+				margin:0 auto;
+			}
+			
+			.lp_titol_contenido_2_column{
+				flex:1;
+				border:1px solid transparent;
+				text-align:center;
+				float:left;	
+				background-color:#afefa5;
+			}
+			
+			.lp_titol2{
+				flex:1;
+				border:1px solid black;
+				text-align:center;
+				float:left;
+				margin-left:4%;
+				margin-top:5%;
+				border-radius:5px;
+			}
+			
+			.lp_titol2_contenido{
+				flex:1;
+				border:1px solid black;
+				text-align:center;
+				float:left;
+				margin-left:6%;
+				margin-top:5%;
+				border-radius:5px;
+			}
+			
+			.lp_titol2 img{
+				display:block;
+				margin:auto;
+				float:left;			
+			}
+			
+			.lp_titol4{
+				display:block;
+				margin:auto;
+				float:left;
+				text-align:center;
+				width:100%;
+			}
+			
+			.texto_random_subtitle{
+					font-size:50px;
+					font-family:"Comic Sans MS", cursive, sans-serif;
+					border-bottom:1px solid grey;
+					text-align:center;
+					width:90%;
+					color:green;
+					margin:0 auto;
+			}
+			
+			.lp_titol1_contenido{
+				flex:1;
+				border:1px solid transparent;
+				height:100%;
+				margin-left:4%;
+			}
+			
+						
+			.text_titol_tp{
+				font-family:"Courier New", Courier, monospace;
+				font-size:16px;
+				color:black;
+				font-weight: 900;
+				text-align:center;
+				background-color:#ededed;
+				padding-top:10px;
+				padding-bottom:10px;
+				width:225px;
+				display:block;
+				margin:auto;
+			}
+			
+			.lp_titol2 p:hover{
+				color:black;
+				background-color:#afefa5;
+			}
+			
+			.lp_titol2_contenido p:hover{
+				color:black;
+				background-color:#afefa5;
+			}
+			
+			.lp_titol2 a{
+				text-decoration:none;
+			}
+			
+			.lp_titol2_contenido a{
+				text-decoration:none;
+			}
+			
+			.lp_titol2 a:hover{
+				color:black;
+				background-color:#afefa5;
+			}
+			
+			.lp_titol2 img:hover{
+				box-shadow: 5px 5px #afefa5;
+			}
+			
+			.lp_titol2_contenido a:hover{
+				color:black;
+				background-color:#afefa5;
+			}
+			
+			.lp_titol2_contenido img:hover{
+				box-shadow: 5px 5px #afefa5;
+			}
+			
+			/* ------------------------------------------------------------------- */
+			
+			/* ------------------------------ ASIDE ------------------------------- */
+			.article_dins_aside{
+				/*border:1px solid green;*/
+				width:100%;
+				display:block;
+				height:100%;
+
+				
+			}
+			
+			.text_cocina_aside_contenido{
+				font-family:Monospace;
+				padding-bottom:2%;
+				font-size:20px;
+			}
+
+			.titulo_receta{
+				font-family:"Comic Sans MS", cursive, sans-serif;
+			}
+			
+			.text_cocina_aside h3{
+				color:blue;
+				margin-right:9%;
+			}
+			
+			.elaboracion{
+				font-family:Monospace;
+				text-align:justify;
+				
+			}
+			
+			.elaboracion h3{
+				color:blue;
+				font-size:20px;
+				text-align:center;
+			}
+			
+			
+			
+			.text_cocina_aside a{
+				text-decoration:none;
+			}
+			.text_cocina_aside{
+				border-bottom:1px solid green;
+				
+			}
+			.article_dins_aside > p {
+				font-size:40px;
+				border-bottom:1px solid green;
+				padding-bottom:8%;
+				font-weight:600;
+
+			}
+
+			.article_dins_aside p {
+				font-size:40px;
+				padding-bottom:8%;
+				font-weight:600;
+
+			}
+			
+			#testing_borders{
+				border-radius:25px;
+			}
+			/* ------------------------------------------------------------------- */
+			
+			/* ------------------------------ FOOTER ------------------------------- */
+			.footer{
+				width:100%;
+				height:100%;
+				border:1px solid transparent;
+				-webkit-flex-direction: column;
+				 -webkit-flex-wrap: wrap;
+				 font-family:"Courier New", Courier, monospace;
+				 
+			}
+			
+			.text_footer_div{
+				float:left;
+				border:1px solid transparent;
+				width:100%;
+				background-color: #afefa5;
+			}
+			
+			.text_footer_div_contenido {
+				float:left;
+				border:1px solid transparent;
+				width:100%;
+				background-color: #afefa5;
+			}
+			
+			.text_footer{
+				font-family:"Courier New", Courier, monospace;
+				color:black;
+				margin-left:1.3%;
+				text-align:center;
+				float:left;
+				border:1px solid transparent;
+				margin-top:2%;
+				margin-left:20%;
+				
+			}
+			
+			.text_footer2{
+				font-family:"Courier New", Courier, monospace;
+				color:black;
+				border:1px solid transparent;
+				margin-left:20%;
+				text-align:center;
+				float:left;
+				border-left:1px solid green;
+				width:30%;
+				
+				
+			}
+			
+			.text_footer3{
+				font-family:"Courier New", Courier, monospace;
+				color:transparent;
+				margin-left:1.3%;
+
+			}
+			
+			.lp_footer{
+				border:1px solid transparent;
+				width:100%;
+				float:left;
+				background-color: #434444;
+			}
+			
+			.lp_footer a{
+				text-decoration:none;
+				color:white;
+			}
+			
+			.lp_footer a:hover{
+				text-decoration:none;
+				color:#afefa5;;
+			}
+			
+			.testing_raton{
+				margin-left:17%;
+				float:left;
+				
+			}
+			.testing_raton img:first-child{
+				margin-left:10%;
+			}
+			/* ------------------------------ FOOTER ------------------------------- */
+			
+			/* ------------------------------- CONTENIDO --------------------------- */
+			.latest_projects2_contenido{
+				 border:1px solid transparent;
+				 flex:2;
+				 -webkit-flex-direction: column;
+				 display: flex;
+				 -webkit-flex-wrap: wrap;
+				 float:left;
+				 height:100%;
+			}
+			
+			.latest_projects2_contenido_2_column{
+				 border:1px solid transparent;
+				 flex:2;
+				 -webkit-flex-direction: column;
+				 display: flex;
+				 -webkit-flex-wrap: wrap;
+				 float:left;
+				 height:100%;
+			}
+			
+/* ------------------------------------------------------------------------------------------------- */
+	#page-wrap {
+		margin: 50px;
+	}
+	p {
+		margin: 20px 0; 
+	}
+
+	
+	table { 
+		width: 100%; 
+		border:0px; 
+	}
+	
+	/* cambio de colores linea */
+	
+	tr:nth-of-type(odd) { 
+		background: white; 
+	}
+	
+	th { 
+		background: #434444;
+		color: white; 
+		font-weight: bold; 
+	}
+	
+	td, th { 
+		padding: 6px; 
+		border: 1px solid #ccc; 
+		text-align: center; 
+	}
+	
+	tr:hover{
+			background-color: lightyellow;
+		}
+
+	.latest_projects2_contenido_table_video{
+		background-color:#afefa5;
+		flex:1;
+	}
+	
+	#testing_borders_test{
+		border-radius:25px;
+	}
+	
+	.lp_titol_aside{
+			flex:1;
+				border:1px solid transparent;
+				text-align:center;
+				float:left;	
+	}
+}
