@@ -1,0 +1,1 @@
+- Varen fer TERMES, una llista llarga de 50 termes o menys/mes.
