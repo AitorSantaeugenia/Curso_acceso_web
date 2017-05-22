@@ -1,0 +1,75 @@
+			/* DIV CONTENIDOR TOTAL */
+			#contenidor {
+				border:1px solid red;
+				width:100%;
+				height:800px;
+				font-family: Trebuchet MS, sans-serif;
+				text-align:center;
+				
+			}
+			
+			/* POSICIO DEL MENU */
+			.menu_one > li {
+				float:left;
+			}
+			
+			/* MODIFICACIÓ DE LES <a> */
+			.menu_one li a {
+				background-color:black;
+				color:white;
+				text-decoration:none;
+				padding:10px 20px;
+				
+				/* NECESITAM UN DISPLAY BLOCK PER "AMAGAR-HO" o millor dit, que surti tot junt */
+				display:block;
+				width:90px;
+				text-align:center;
+			}
+			
+			/* SIMPLE HOVER DE TOT - Color gris */
+			.menu_one li a:hover {
+				background-color:grey;
+			}
+			
+			.menu_one li ul {
+				/* AMB AIXO OCULTAREM EL QUE ESTA FET, EL DESPLEGABLE */
+				display:none;
+				
+				/* NECESITEM UN POSITION ABSOLUTE PERQUE NO PETI */
+				position:absolute;
+			}
+			
+			.menu_one  li:hover > ul  {
+				/* ALTRE COP DISPLAY BLOCK PER MOSTRAR-HO BE*/
+				display:block;
+				
+			}
+			
+			/* NOMES ELS FILLS DE LA PRIMERA UL > PRIMERA LI, és a dir LA RESTA <UL> a partir de la primera, és possaran un top:-41px; cap amunt */
+			.menu_one ul > li > ul {
+				top:-40px;
+			}
+						
+			/* MOURE EL DESPLEGABLE AL CENTRE REALMENT, LI ESTEM ELIMINANT PIXELS PER DEIXAR-HO FIXAT */
+			.menu_one li ul li {
+				position:relative;
+				left:-40px;
+
+			}
+			
+			/* MOURE EL DESPLEGABLE A LA DRETA REALMENT, LI ESTEM ELIMINANT PIXELS PER DEIXAR-HO FIXAT */
+			.menu_one li ul li ul {
+				position:relative;
+				left:130px;
+			}
+			
+			/* Estils de la lista */
+			ul, ol {
+				list-style:none;
+			}
+			
+			.menu_one{
+				margin: 0 auto;
+				margin-left: 35%;
+				margin-top:20px;
+			}
