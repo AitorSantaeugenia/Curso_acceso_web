@@ -1,0 +1,92 @@
+@media screen and (min-width: 701px) and (max-width: 1980px) {
+#tabla
+{
+	height:900px;
+	width:800px;
+	display:table;
+	
+}
+.columna
+{
+	float:left;
+	height:100%;
+	width:22%;
+	
+}
+.celda
+{
+	border:1px solid black;
+	height:10%;
+	width:100%;
+	padding-top:10%;
+	text-align:center; 
+	display:block;
+	
+}
+.celdapadre
+{
+	height:10%;
+	width:100%;
+	border:1px solid black;		
+	padding-top:10%;
+	text-align:center;
+	font-weight:bold;
+	display:block;
+	
+}
+#sobras
+{
+	color:yellow;
+	
+}
+
+#principal {
+	border:1px solid green;
+	overflow:scroll;
+}
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+	#tabla {
+		
+		width:500px;
+		height:400px;
+		div-layout:fixed;
+	}
+	
+	#principal {
+		border:1px solid green;
+		overflow-x:scroll;
+}
+	
+	#sobras {color:red;}
+	
+	.columna{
+	float:left;
+	height:100%;
+	width:22%;
+	
+}
+.celda
+{
+	border:1px solid black;
+	height:10%;
+	width:100%;
+	padding-top:10%;
+	text-align:center; 
+	display:block;
+	
+}
+.celdapadre
+{
+	height:10%;
+	width:100%;
+	border:1px solid black;		
+	padding-top:10%;
+	text-align:center;
+	font-weight:bold;
+	display:block;
+	
+}
+}
+

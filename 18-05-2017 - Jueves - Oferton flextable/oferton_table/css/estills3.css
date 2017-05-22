@@ -1,0 +1,58 @@
+/* ---------------------------------
+           CSS3
+--------------------------------- */ 
+
+	@media screen and (min-width: 0px) and (max-width:600px){
+		
+		.testing_media{
+			color:red;
+		}
+		
+		
+		.flexy {
+			border: 1px solid #eee;
+			display:block;
+			width:50%;
+		}
+		
+		.flexy td{
+			min-width:20%;
+			/*word-break: break-all;*/
+			text-align:center;
+		}
+		
+		.flexy tr td {
+        	width: 100%;
+			font-size:50%;
+        }
+	}
+	
+	@media screen and (min-width: 601px) and (max-width:1980px){
+		
+		.testing_media{
+			color:blue;
+		}
+		
+		.flexy {
+			border: 1px solid red;
+			display:block;
+			width:100%;
+			position: absolute;
+		}
+		
+        .flexy thead {
+        	width:100%;
+        }
+
+		 .flexy tbody {
+			width: 100%;
+			border: 1px solid green;
+        }
+
+		.flexy tr td {
+        	width: 16%;
+			font-size:100%;
+        }
+
+		
+	}

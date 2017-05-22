@@ -1,0 +1,25 @@
+/* ---------------------------------
+           CSS3
+--------------------------------- */ 
+
+	@media screen and (min-width: 0px) and (max-width:600px){
+		
+		.testing_media{
+			color:red;
+		}
+		
+		
+		
+		.flexy {
+			border: 1px solid #eee;
+			display:block;
+			width:100%;
+			overflow: auto;
+		}
+		
+		.flexy td{
+			min-width:25%;
+			/*word-break: break-all;*/
+			text-align:center;
+		}
+	}

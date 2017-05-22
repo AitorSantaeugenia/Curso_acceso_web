@@ -1,0 +1,431 @@
+/* ----------------------- EN GRANDE ------------------ */
+	@media screen and (min-width: 601px) and (max-width: 1980px){	
+		.contenidor{
+			width:100%;
+			border: 1px solid transparent;
+			height:800px;
+		}
+		
+		
+		.encabeza{
+			text-align:center;
+			border:1px solid transparent;
+			height:100px;
+			/*line-height:100px;*/
+			margin: 0 auto;
+			border-radius: 5px;
+		}
+		
+		.title_encabez{
+			font-size:30px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight:900;
+			color:#1f6821;
+			margin-top:0px;
+			margin-top:4%;
+			text-shadow: 1px 1px #efefef;
+
+		}
+		.title_encabez2{
+			font-size:30px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight:900;
+			color:white;
+			margin-top:4%;
+			text-shadow: 1px 1px #efefef;
+		}
+		
+		#test_cesta{
+				margin-left:6%;
+		}
+		
+		#testreloj{
+			margin-left:-3px;
+		}
+		
+		#testreloj2{
+			margin-left:-4px;
+		}
+		
+		#testreloj3{
+			margin-left:-4px;
+		}
+		
+		.izquierda{
+			float:left;
+		}
+		
+		.derecha{
+			border-bottom:1px solid #eff1f4;
+		}
+		
+		.line_under{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size:20px;
+			margin-top:9px;
+			margin-left:12%;
+		}
+		
+		.imagen_looooca{
+			position:absolute;
+			text-align:center;
+			width:40%;
+			margin-top:-5%;
+		}
+		
+		.image_solo{
+			position:absolute;
+			text-align:right;
+			margin-top:-8%;
+			margin-left:10.6%;
+			border:1px solid transparent;
+		}
+		
+		.text_grey_footer{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size:20px;
+			color:#9b9da0;
+			text-align: center;
+
+		}
+		
+		.text_bodygris_center{
+			margin:0 auto;
+			text-align:center;
+			font-size:80px;
+			font-family:arial;
+			font-weight:600;
+			margin-top:3%;
+		}
+		
+		.text_bodygris_center2{
+			font-weight:900;
+			text-align:center;
+			font-size:30px;
+			font-family:arial;
+			margin-top:-5%;
+		}
+		
+		.title_encabez_cursiva2{
+			 font-style: italic;
+			 font-weight:900;
+			 margin-top:-30px;
+			 color:white;
+		}
+		
+		.title_encabez_cursiva{
+			 font-style: italic;
+			 font-weight:900;
+			 margin-top:-30px;
+			 color:#1f6821;
+			
+		}
+
+		.gris{
+			background-color:#efefef;
+			height:200px;
+		}
+		
+		.cuerpo_div{
+			height:220px;
+			width:100%;
+			border:1px solid transparent;
+		}
+		
+		.footer{
+			height:200px;
+			width:100%;
+			border:1px solid transparent;
+		}
+
+		/* default appearance */
+		.clasetecno > * {
+			padding: 20px;
+			font-family: Georgia, Serif;
+		}
+		.clasetecno > div {
+			/*background-color: #99ff99;*/
+			margin-left:3%;
+		}
+
+		.clasetecno .testing {
+			/*background-color: #99ccff;*/
+		}
+
+		/* Flexbox */
+		.clasetecno {
+			display: -webkit-flex;
+			-webkit-flex-direction: column;
+			flex-direction: column;
+			width:80%;
+			margin: 0 auto;
+			margin-top:2%;
+			border:1px solid transparent;
+		}
+		
+		.clasetecno {
+			-webkit-flex-direction: row;
+			flex-direction: row;
+		}
+		.clasetecno > * {
+			-webkit-flex: 1;
+			flex: 1;
+		}
+		.testing {
+			-webkit-order: -1;
+			order: -1;
+			height:600px;
+			
+		}
+		.clasetecno > div {
+
+			-webkit-flex: 3;
+			-webkit-flex: 3;
+		}
+
+		.clasetecno .tecno {
+			/*background-color:  #009999;*/
+		}
+		
+		.euro_letter{
+			font-size:40px;
+			float:right;
+			margin-top:-15%;
+			margin-right:33%;
+			font-family: Arial, Helvetica, sans-serif;
+			text-align:center;
+			font-weight:600;
+		}
+		
+		.euro_letter1{
+			font-size:40px;
+			float:right;
+			margin-top:-15%;
+			margin-right:39%;
+			font-family: Arial, Helvetica, sans-serif;
+			text-align:center;
+			font-weight:600;
+		}
+	
+	}
+/* ----------------------- FIN EN GRANDE ------------------ */
+
+/* ----------------------- EN PEQUEÑO ------------------ */
+	@media screen and (min-width: 0px) and (max-width: 601px){	
+		.contenidor{
+			width:100%;
+			border: 1px solid transparent;
+			height:800px;
+		}
+		
+		
+		.encabeza{
+			text-align:center;
+			border:1px solid transparent;
+			height:100px;
+			/*line-height:100px;*/
+			margin: 0 auto;
+			border-radius: 5px;
+		}
+		
+		.title_encabez{
+			font-size:30px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight:900;
+			color:#1f6821;
+			margin-top:0px;
+			margin-top:4%;
+			text-shadow: 1px 1px #efefef;
+
+		}
+		.title_encabez2{
+			font-size:30px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight:900;
+			color:white;
+			margin-top:5%;
+			text-shadow: 1px 1px #efefef;
+		
+			
+		}
+		
+		#estrella1{
+			margin-left:9%;
+		}
+		
+		.izquierda{
+			float:left;
+		}
+		
+		.derecha{
+			border-bottom:1px solid #eff1f4;
+		}
+		
+		.line_under{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size:20px;
+			margin-top:9px;
+		}
+		
+		.imagen_looooca{
+			position:absolute;
+			text-align:center;
+			width:50%;
+			margin-top:-9%;
+			margin-left:20%;
+		}
+		
+		.image_solo{
+			position:absolute;
+			text-align:right;
+			margin-top:-45%;
+			margin-left:47%;
+			border:1px solid transparent;
+			width:50%;
+		}
+		
+		.text_grey_footer{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size:20px;
+			color:#9b9da0;
+			text-align: center;
+
+		}
+		
+		.text_bodygris_center{
+			margin:0 auto;
+			text-align:center;
+			font-size:70px;
+			font-family:arial;
+			font-weight:600;
+			margin-top:5%;
+		}
+		
+		.text_bodygris_center2{
+			font-weight:900;
+			text-align:center;
+			font-size:30px;
+			font-family:arial;
+			margin-top:-5%;
+		}
+		
+		#cpaneltocado{
+			margin-left:45px;
+		}
+		
+		#cpaneltocado2{
+			margin-left:45px;
+		}
+		
+		#cpaneltocado3{
+			margin-left:45px;
+		}
+		
+		.title_encabez_cursiva2{
+			 font-style: italic;
+			 font-weight:900;
+			 margin-top:-30px;
+			 color:white;
+		}
+		
+		.title_encabez_cursiva{
+			 font-style: italic;
+			 font-weight:900;
+			 margin-top:-30px;
+			 color:#1f6821;
+			
+		}
+
+		.gris{
+			background-color:#efefef;
+			height:200px;
+		}
+		
+		.cuerpo_div{
+			height:220px;
+			width:100%;
+			border:1px solid transparent;
+		}
+		
+		.footer{
+			height:200px;
+			width:100%;
+			border:1px solid transparent;
+			margin-bottom:10%;
+		}
+		
+		#encabeza_avanzado{
+			margin-top:50%;
+		}
+
+		/* default appearance */
+		.clasetecno > * {
+			font-family: Georgia, Serif;
+		}
+		.clasetecno > div {
+			/*background-color: #99ff99;*/
+		
+		}
+
+		.clasetecno .testing {
+			/*background-color: #99ccff;*/
+		}
+
+		/* Flexbox */
+		.clasetecno {
+			display: -webkit-flex;
+			-webkit-flex-direction: column;
+			flex-direction: column;
+			width:100%;
+			margin: 0px;
+			margin-top:2%;
+			border:1px solid transparent;
+		}
+		
+		.clasetecno > * {
+			-webkit-flex: 1;
+			flex: 1;
+		}
+		.testing {
+			-webkit-order: -1;
+			order: -1;
+			height:600px;
+			
+		}
+		.clasetecno > div {
+
+			-webkit-flex: 3;
+			-webkit-flex: 3;
+		}
+		.euro_letter{
+			font-size:40px;
+			float:right;
+			margin-top:-17%;
+			margin-right:35%;
+			font-family: Arial, Helvetica, sans-serif;
+			text-align:center;
+			font-weight:600;
+			
+	
+		}
+		
+		.euro_letter1{
+			font-size:40px;
+			float:right;
+			margin-top:-18%;
+			margin-right:33%;
+			font-family: Arial, Helvetica, sans-serif;
+			text-align:center;
+			font-weight:600;
+		}
+		
+		#why_euro{
+			margin-right:27%;
+		}
+		
+		#why_euro2{
+			margin-right:27%;
+		}
+		
+		
+	}

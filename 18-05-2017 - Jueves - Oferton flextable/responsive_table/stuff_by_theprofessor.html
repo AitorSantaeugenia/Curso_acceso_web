@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html  lang="es-ES">
+<html>
+<head>
+<style>
+
+.contenedor-tabla
+{
+
+	display: inline-block;
+	width:800px;
+
+}
+
+.contenedor-fila
+{
+
+	display: inline-block;
+	float:left;
+	width:790px;
+	border:1px solid #cc;
+
+}
+
+.contenedor-celda
+{
+
+	display: inline-block;
+	float:left;	 
+	width:200px;
+	border:1px solid #ccc;
+
+}
+
+@media  (max-width: 500px)  
+{
+
+	.contenedor
+	{
+
+		overflow:scroll;
+		width:100%;
+	}
+
+	.contenedor-tabla
+	{
+		 width:100%;
+	}
+
+	}
+</style>
+</head>
+<div class="contenedor">
+<div class="contenedor-tabla">
+    <div class="contenedor-fila">
+        <div class="contenedor-celda">
+		fila 1.1
+         </div>
+
+        <div class="contenedor-celda">
+            fila 1.2
+        </div>
+
+        <div class="contenedor-celda">
+			fila 1.3
+        </div>
+    </div>
+	<div class="contenedor-fila">
+        <div class="contenedor-celda">
+			fila 2.1
+         </div>
+
+        <div class="contenedor-celda">
+            fila 2.2
+        </div>
+
+        <div class="contenedor-celda">
+			fila 2.3
+        </div>
+    </div>
+   
+</div>
+</div>
+</html>
