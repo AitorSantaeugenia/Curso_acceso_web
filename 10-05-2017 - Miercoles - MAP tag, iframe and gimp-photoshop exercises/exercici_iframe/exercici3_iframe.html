@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<!-- INICI HEADER -->
+	<head>
+		<title> Exercici 3 - IFRAME - 10-05-2017 </title>
+			<meta charset="UTF-8"/>
+			<meta name="description" content="Exercici menú - 09-05-2017"/>
+			<meta name="keywords" content="HTML,CSS,JavaScript"/>
+			<meta name="author" content="Aitor J. Santaeugenia"/>
+			<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">  -->
+		<!-- ESTILS -->
+		<link rel="stylesheet" type="text/css" href="css/estils.css"/>
+	</head>
+<!-- FI DE HEADER -->
+
+	<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- INICI BODY -->
+	<body bgcolor="#000000" width="100% ">
+	
+		<!-- DIV INICIAL - CLASE CONTENIDOR -->
+		<div class="contenidor"><br/>
+		
+			<!-- DIVS DE LA DERECHA -->
+			<div class="derecho_top">
+			
+			<div class="derecho_top1">
+			<p>Lo más buscado</p><br/>
+				<div  class="testing_tecno">
+					<ol>
+					  <li><a href="#">Operación Lezo</a></li>
+					  <li><a href="#">FBI</a></li>
+					  <li><a href="#">Avalancha Alpes</a></li>
+					  <li><a href="#">Accidente ascensor</a></li>
+					  <li><a href="#">Ofertas de trabajo</a></li>
+					</ol> 
+				</div>
+
+				<div class="truncate">
+					<ol start="6">
+					  <li><a href="#">Atletico - Real Madrid</a></li>
+					  <li><a href="#">Vestidos primera comunión</a></li>
+					  <li><a href="#">Giro de Italia</a></li>
+					  <li><a href="#">Escapadas fin de semana</a></li>
+					  <li><a href="#">Pink Floyd</a></li>
+					</ol> 
+				</div>
+			</div>
+				<br/>
+				<div class="derecho_top2">
+					<!-- DIV CONTENIDOR DEL DIBUIX + DIBUIX = BOTO -->
+					<div class="mugrande_grande">
+						<div class="imatge_1_avio">
+							<img src="img/avion_petit.png" alt="Avión"/>
+						</div>
+						
+						<div class="text_1_signe_1">
+						+
+						</div>
+						
+					
+						
+						<div class="imatge_2_avio">
+							<img src="img/casa_petit.png" alt="Casa"/>
+						</div>
+						
+						<div class="text_1_signe_2">
+						=
+						</div>
+						
+			<a href="#"><div class="button_devora_text2">
+							<p class="text_button">Ahorro</p>
+						</div></a>
+						
+						<!-- LAST BUTTON -->
+			<a href="#"><div class="button_devora_text3">
+							<p class="text_button2"><strong>Reserva ahora</strong></p>
+						</div></a>
+						
+					</div>
+				
+				</div>
+				
+			</div>
+			<!-- HEADER CONTENT -->
+			<div class="header_content">
+			<strong>NACIONAL:</strong> Imputada la delegada de Gobierno en Madrid
+			</div><br/>
+			
+			<!-- IFRAME CONTENT -->
+			<div class="iframe_content">
+				<!-- DIV PER EL IFRAME EN SÍ -->
+				<div class="iframe_contingut_iframe">
+					<iframe id="frame" src="pags/pagina_defecto_img.html" 
+					marginwidth="0" marginheight="0" name="ventana_iframe" scrolling="no" border="1" 
+					frameborder="0">
+					</iframe>
+				</div>
+			</div><br/>
+			<!-- ------------------------------------------------------------------------------ -->
+			<!-- NOTICIES CONTENT -->
+			<div class="contenidor_noticies_hostia">
+				<div class="noticies_content">
+					<a href="pags/pagina1_img.html" target="ventana_iframe">
+					<img src="img/avion.jpg" alt="Avión" height="83" width="105.5%" style="border-radius: 3px"/>
+					<p>Avion despega decentemenete</p>
+					</a>
+				</div>
+				<!-- NOTICIES CONTENT -->
+				<div class="noticies_content">
+				<a href="pags/pagina2_img.html" target="ventana_iframe">
+					<img src="img/mujer.jpg" alt="Mujer loca" height="83" width="105.5%" style="border-radius: 3px"/>
+					<p>Nunca debes ducharte después de hacer esto</p>
+				</a>
+				</div>
+				<!-- NOTICIES CONTENT -->
+				<div class="noticies_content">
+				<a href="pags/pagina3_img.html" target="ventana_iframe">
+					<img src="img/coche.jpg" alt="Coche" height="83" width="105.5%" style="border-radius: 3px"/>
+					<p>La marca de coches que abandona España</p>
+				</a>
+				</div>
+				<!-- NOTICIES CONTENT -->
+				<div class="noticies_content" target="ventana_iframe">
+				<a href="pags/pagina4_img.html" target="ventana_iframe">
+					<img src="img/agua_oxigenada.jpg" alt="Agua oxigenada" height="83" width="105.5%" style="border-radius: 3px"/>
+					<p>Cosas que hace el agua oxigenada</p>
+				</a>
+				</div>
+				<!-- NOTICIES CONTENT -->
+				<div class="noticies_content">
+				<a href="pags/pagina5_img.html" target="ventana_iframe">
+					<img src="img/carretera.jpg" alt="Carretera" height="83" width="105.5%" style="border-radius: 3px"/>
+					<p>Se fué y no volvío, por comprar pan</p>
+				</a>
+				</div>
+			</div>
+			<!-- ------------------------------------------------------------------------------ -->
+		</div>
+	
+	</body>
+<!-- FI DE BODY -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- 
+linear-gradient (to top, green, olive);
+-->
+</html>

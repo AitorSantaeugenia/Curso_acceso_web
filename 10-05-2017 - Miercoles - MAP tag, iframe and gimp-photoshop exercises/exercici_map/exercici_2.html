@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+Una finestra que te el tractament de un altre navegador
+
+-->
+
+<!-- INICI DE HEAD -->
+<head>
+<title>Mostrar un enlace en una iframe2</title>
+
+
+	<!-- IM JUST TESTING HERE, WE CAN DELETE THIS SHEET -->
+	<style>
+		#wrap { width: 600px; height: 390px; padding: 0; overflow: hidden; }
+		#frame { width: 800px; height: 520px; border: 1px solid black; }
+		#frame {
+			-ms-zoom: 0.75;
+			-moz-transform: scale(0.75);
+			-moz-transform-origin: 0 0;
+			-o-transform: scale(0.75);
+			-o-transform-origin: 0 0;
+			-webkit-transform: scale(0.75);
+			-webkit-transform-origin: 0 0;
+		}
+	</style>
+	<!-- IM JUST TESTING HERE, WE CAN DELETE THIS SHEET -->
+
+
+</head>
+
+<!-- INICI DE BODY -->
+<body>
+
+<p><a href="http://www.htmlquick.com" target="ventana_iframe">Enlace 1</a></p>
+<p><a href="http://bing.com" target="ventana_iframe">Enlace 2</a></p>
+<p><a href="http://www.terra.com" target="ventana_iframe">Enlace 3</a></p>
+<div id="warp">
+	<!-- INICI IFRAME -->
+	<iframe id="frame" src="http://www.terra.com" 
+	marginwidth="0" marginheight="0" name="ventana_iframe" scrolling="no" border="1" 
+	frameborder="0" width="800" height="600">
+	</iframe>
+</div>
+</div>
+	
+</body>
+
+</html>
