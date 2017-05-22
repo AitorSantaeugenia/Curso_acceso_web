@@ -1,3 +1,3 @@
-- Playing with tables
-- One test creating a table from a .pdf file (exercici_tabla)
-- Keyboard done with tables tags
+- Playing with tables 
+- One test creating a table from a .pdf file (exercici_tabla) || table > exercici_table.html
+- Keyboard done with tables tags || exercicis>teclat.html
