@@ -1,0 +1,173 @@
+#principal{
+	border:1px solid red;
+	width:50%;
+	height:100%;
+	border:1px solid #000;
+	display:table;
+}
+#azul{
+	border:1px solid #000;
+	height:560px;
+	width:2%;
+	background-image:url("http://www.bstuari.com/administrador/img_colores/4013/azul%20royal.jpg");
+	background-repeat:repeat;
+	float:left;
+	position:absolute;
+}
+#titulo{
+	width:95%;
+	height:60px;
+	color:#b9c1ce;
+	font-size:40px;
+	padding-left:5%;
+	padding-top:1%;
+	background-image:url("http://mydatamine.com/wp-content/uploads/2016/04/background.jpg");
+	background-repeat:repeat;
+	float:left;
+}
+.arriba{
+	width:153px;
+	height:40px;
+	border-bottom:5px solid #8dff89;
+	border:1px solid #fff;
+	padding-top:2%;
+	border-top-left-radius:8%;
+	border-top-right-radius:8%;
+	font-weight:bold;
+	font-family:Trebuchet MS, Helvetica, sans-serif;
+	background: linear-gradient( #afff84 , #7aea5d);
+	color:#fff;
+	text-align:center;
+	display:table-cell;
+}
+margin-right:10000px;
+}
+nav.trying_it nav:first-child {
+		margin-right:10000px;
+		}
+
+.contenido{
+	width:15.9%;
+	height:40px;
+	margin-top:0.8%;
+	margin-left:0.2%;
+	background:#d6ffc9;
+	font-family:Trebuchet MS, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#000;
+	text-align:center;
+	padding-top: 2%;
+	float:left;
+}
+.informacion{
+	width:16.2%;
+	height:40px;
+	border-right:5px solid #8dff89;
+	margin-top:1%;
+	margin-left:1%;
+	background:#d6ffc9;
+	font-family:Trebuchet MS, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#fff;
+	border-top-left-radius:8%;
+	border-bottom-left-radius:8%;
+	text-align:center;
+	padding-top: 2%;
+	display:table-cell;
+	float:left;
+	background: -webkit-linear-gradient(left, #afff84 , #7aea5d);
+}
+.ultima{
+	width:16.2%;
+	height:40px;
+	margin-top:1%;
+	margin-left:1%;
+	font-family:Trebuchet MS, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#000;
+	text-align:center;
+	padding-top: 2%;
+	float:left;
+	
+}
+.dinero{
+	width:16.2%;
+	height:40px;
+	margin-left:0.2%;
+	font-weight:bold;
+	text-shadow: 1px 1px #000;
+	font-family:Trebuchet MS, Helvetica, sans-serif;
+	color:#7aea5d;
+	font-size:30px;
+	text-align:center;
+	padding-top: 2%;
+	float:left;
+}
+
+div.testing2{
+	 /*border:2px solid red; */
+	width:100%;
+	display:table-row;
+	float:left;
+	margin-left:50px;
+	margin-top:-6px;
+}
+
+div.testing3{
+	width:100%;
+	display:table-row;
+	float:left;
+	margin-left:50px;
+	margin-top:-6px;
+}
+
+div.testing4{
+	width:100%;
+	display:table-row;
+	float:left;
+	margin-left:50px;
+	margin-top:-6px;
+}
+
+div.testing5{
+	width:100%;
+	display:table-row;
+	float:left;
+	margin-left:50px;
+	margin-top:-6px;
+}
+
+div.testing6{
+	width:100%;
+	display:table-row;
+	float:left;
+	margin-left:50px;
+	margin-top:-6px;
+}
+
+div.testing7{
+	width:100%;
+	
+	display:table-row;
+	float:left;
+	margin-left:50px;
+	margin-top:-6px;
+}
+
+.testing8{
+		width:100%;
+	
+	display:table-row;
+	float:left;
+	margin-left:50px;
+	margin-top:-6px;
+}
+
+
+div.tryin_it{
+	width:70%;
+	display:table-row;
+	float:left;
+	margin-left:213px;
+}
+

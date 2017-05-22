@@ -1,0 +1,42 @@
+/* ---------------------------------------------------------------------------------------------------------- */
+		main.cos_pagina{
+			border:1px solid black;
+			width:100%;
+			height:3000px;
+		}
+		
+		div.text_titol{
+			text-align:center;
+			border:1px solid blue;
+			width:100%;
+			background-color:grey;
+		}
+		
+		/* DIV CONTENIDOR AMB DISPLAY: TABLE */
+		div.cos_de_pagina_contenidor{
+			border:1px solid red;
+			width:100%;		
+
+		}
+/* ---------------------------------------------------------------------------------------------------------- */
+/* TESTING AMB IMATGES */
+/* ---------------------------------------------------------------------------------------------------------- */
+		img.testing_tecno{
+			position: absolute;
+			left: 0px;
+			top: 0px;
+		}
+		
+		div.cos_de_pagina_contenidor2_per_testing{
+			width:100%;
+			height:800px;
+			background-image:url("../img/imagen_random_2.jpg");
+			 background-repeat: no-repeat;
+			 
+		}
+		
+		body.texting_texno{
+			 background-repeat: no-repeat;
+			 width:100%;
+			 height:100%;
+		}
