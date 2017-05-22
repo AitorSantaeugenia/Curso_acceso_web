@@ -1,0 +1,225 @@
+			
+			#cos_pagina{
+				margin:0px;
+				padding:0px;
+				background-image: url('../img/background.jpg');
+				background-repeat: no-repeat;
+			}
+			
+			/* TOTAL DIV DE LA PAGINA */
+			div.div_grande{
+				/*border: 1px solid black;*/
+				width: 100%; 
+				display:block;
+				height:100%;
+
+			}
+						
+			/* SECTION INTERIORS, CAPSES */
+			article.sectonocion{
+				border: 1px solid black;
+				height:150px;
+				width:70%;
+				float:inherit;
+				margin-left:15%;
+				margin-top:1.6%;
+				margin-bottom:1%;
+				display:block;
+				background-image: url('../img/background2.jpg');
+				box-shadow: 10px 10px 5px #888888;
+			}
+			
+			/* DIV */
+			div.onlyforsection{
+				/* border: 1px solid red; */
+				height:100%;
+				width:68.3%;
+				float:inherit;
+				margin-left:15.9%;
+				margin-right:15.9%;
+			}
+			
+			/* MAIN DE LA PAGINA, abans un DIV, possat MAIN per practicar */
+			main.cos_pagina{
+				/*border: 1px solid black;*/
+				width:100%;
+				/* POSAR MIDA SI VOLEM QUE OCUPI MES ESPAI DE TOTA LA PANTALLA, DONCS NO HI HA PROU LLETRES A DINS COM PERQUÈ BAIXI */
+				height:100%;
+				display:inline-block;
+			}
+			
+			/* SECCIO DE LA IMATGE */
+			section.seccio_imatge{
+				/*border: 1px solid black;*/
+				height:85%;
+				width:18%;
+				float:inherit;
+				margin-left:8%;
+				margin-top:1.2%;
+				margin-bottom:1%;
+			}
+			
+			/* IMATGES DE LES PERSONES AL INDEX */
+			/* IMATGE REDONDEJADA */
+			img.imatge_persona_index{
+				height:100%;
+				width:100%;
+				border-radius: 47px 47px 47px 47px;
+				-moz-border-radius: 47px 47px 47px 47px;
+				-webkit-border-radius: 47px 47px 47px 47px;
+				border: 0px solid #000000;			
+				}
+			
+			/* ARTICLES DINS DEL SECTIONS PER LA DESCRIPCIO DE LA PERSONA */
+			article.descripci_persos{
+				border: 1px solid black;
+				height:82%;
+				width:70%;
+				float:right;
+				margin-top:1.5%;
+				margin-right:2%;
+				background-color:#DADADA;
+			}
+
+			nav.navegacio_dins_article{
+				/*border: 1px solid red;*/
+				text-align:center;
+				font-family: "Comic Sans MS", cursive, sans-serif;
+				color: red;
+				
+			}
+			
+			nav.navegacio_dins_article2{
+				text-align:left;
+				font-family: "Comic Sans MS", cursive, sans-serif;
+				color: red;
+				margin-top:0.5%;
+			}
+			
+			p.text_descripci_persos{
+				font-family: "Palatino Linotype", Palatino, serif;
+				margin-left:10%;
+				
+			}
+/* ----------------------------------------------------------------------------------------------------------------------------------- */	
+/* ------------------------- ESTILS CSS PER LES FITXES ------------------------- */	
+			/* SECTION INTERIORS, CAPSES */
+			article.sectonocion_fitxes{
+				/*border: 1px solid red;*/
+				height:100%;
+				width:90%;
+				float:inherit;
+				display:inline-block;
+			}
+			
+			/*Simple H1 */	
+			h1 {
+				font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;				
+				text-align:center;
+			}
+			
+			/* IMATGES DELS ARXIUS PERSONA#1.html / PERSONA#2.html / PERSONA#3.html */
+			section.seccio_imatge_fitxes{
+				height:85%;
+				width:18%;
+				float:inherit;
+				margin-left:8%;
+				margin-top:1.2%;
+				margin-bottom:1%;
+				box-shadow: 10px 10px 5px #888888;
+			}
+			
+			div.contenidor1_article{
+				border: 1px solid black;
+				width:45%;
+				height:45%;
+				float:left;
+				
+			}
+			
+			div.contenidor3_article{
+				/*border: 1px solid red;*/
+				width:100%;
+				height:100%;
+				float:right;
+			}
+			
+			h1.titol_text_h1{
+				font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				/*border: 1px solid red;*/
+				width:100%;
+				text-align:center;
+			}
+			
+			table.taula_llenguatges{
+				text-align:center;
+				border:1px solid black;
+				width:80%;
+				margin-left:10%;
+				
+			}
+			
+			section.seccio_citacions{
+				/* order: 1px solid red; */
+				text-align:center;
+			}
+			
+			ul.listas_cv{
+				font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				font-size:14px;
+			}
+			
+			li.no_dot_punt{
+				list-style-type: none;
+			}
+			
+			li.checked_imagen{
+				list-style-image: url("../img/checked_icon.png");
+			}
+			
+			footer.pie_de_pagina{
+				/*border:1px solid black;*/
+				width:100%;
+				text-align:center;
+				font-size:12px;
+				font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			}
+			
+			h1.texto_cv{
+				text-shadow: 3px 3px #888888;;
+			}
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------- BREADCRUMB -------------------------------------- */
+			/* Style the list */
+			ul.breadcrumb {
+				padding: 10px 16px;
+				list-style: none;
+				background-color: #eee;
+				font-size: 17px;
+			}
+
+			/* Display list items side by side */
+			ul.breadcrumb li {
+				display: inline;
+			}
+
+			/* Add a slash symbol (/) before/behind each list item */
+			ul.breadcrumb li+li:before {
+				padding: 8px;
+				color: black;
+				content: ">\00a0";
+			}
+
+			/* Add a color to all links inside the list */
+			ul.breadcrumb li a {
+				color: #0275d8;
+				text-decoration: none;
+			}
+
+			/* Add a color on mouse-over */
+			ul.breadcrumb li a:hover {
+				color: #01447e;
+				text-decoration: underline;
+			}
+/* ----------------------------------------------------------------------------------------------------------------------------------- */

@@ -1,0 +1,11 @@
+- Etiqueta MAIN per lo important
+	plantilla_div_2.html
+
+- Etiquetes META
+	plantilla_div_2.html
+		- CHARSET
+		- DESCRIPTION
+		- KEYWORDS
+
+- Una prova - Prova1 en la carpeta del día 05/05/2017
+	
