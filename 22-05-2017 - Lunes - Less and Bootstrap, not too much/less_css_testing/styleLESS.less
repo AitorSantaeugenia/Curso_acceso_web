@@ -1,0 +1,36 @@
+@color-gris: #FF0000;
+@dirImages:"./imagenesLESS/";
+
+	 
+
+	div { background-color: @color-gris;}
+
+	 
+
+	h1 { color: @color-gris; }
+
+	 
+
+	 p { color: @color-gris; }
+	 
+	
+	
+	.caja
+	{ 
+		width: 100px; 
+		height: 100px; 
+	   .rounded(5px); 
+	}
+	
+	/*mixing*/
+	.rounded(@valor) 
+	{
+		-webkit-border-radius:@valor; 
+		border-radius:@valor; 
+	}
+
+	
+	body
+	{
+		background:url("@{dirImages}/fondo.jpg") no-repeat;
+	}
