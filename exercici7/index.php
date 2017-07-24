@@ -19,14 +19,18 @@ h3{
 	left:47%;
   top:2%;
 }
-h4{
-	text-align:center;
 
-}
+div.image {
+   content:url("img/ground.png");
+}​);
 
 </style>
 </head>
 <body onload="startGame()">
+
+<br/>
+<div style="border: 1px solid transparent; width:480px; height:100px; margin-left:37.3%; margin-top:-1%;" class="image">
+</div>
 <h3>Flappy bird</h3><br/>
 <!-- INICIO SCRIPT -->
 <script>
@@ -192,6 +196,6 @@ h4{
 <!-- INICIO SCRIPT -->
 
 <br>
-<h4>Use spacebar to play!</h4>
+<h4 style="color:red; text-align:center;">Use spacebar to play!</h4>
 </body>
 </html>
